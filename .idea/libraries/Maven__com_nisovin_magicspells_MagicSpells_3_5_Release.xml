@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.nisovin.magicspells:MagicSpells:3.5-Release">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nisovin/magicspells/MagicSpells/3.5-Release/MagicSpells-3.5-Release.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nisovin/magicspells/MagicSpells/3.5-Release/MagicSpells-3.5-Release-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/nisovin/magicspells/MagicSpells/3.5-Release/MagicSpells-3.5-Release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

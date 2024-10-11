@@ -1,0 +1,192 @@
+name: FourCore
+version: '0.1.0'
+main: Air.FourCore.FourCore
+api-version: 1.12.2
+authors: [ monkey ]
+description: test
+depend: [ Vault ]
+
+  # https://rockyhawk99.gitbook.io/rockyhawk-wiki/wiki/configuration # 백업 플러그인
+commands:
+  보상초기화:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  save:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  이벤트지급:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  네더의별상자:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  리붓:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  후원지급:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  캐시지급:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  지급:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  경험치이벤트:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  점검보상지급:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  이벤트:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  레이드입장:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 관리자 전용 명령어 입니다.
+  점령전:
+    usage: /<command>
+  로그조사:
+    usage: /<command>
+  점검보상:
+    usage: /<command>
+  #코인:
+  #  usage: /<command>
+  #도박:
+  #  usage: /<command>
+  #룬:
+  #  usage: /<command>
+  무력:
+    usage: /<command>
+  튜토리얼:
+    usage: /<command>
+  관리자:
+    usage: /<command>
+  가이드:
+    usage: /<command>
+  대련:
+    usage: /<command>
+  캐시:
+    usage: /<command>
+  카페:
+    usage: /<command>
+  개조예시:
+    usage: /<command>
+  가이드채팅:
+    usage: /<command>
+  후원:
+    usage: /<command>
+  디스코드:
+    usage: /<command>
+  마인리스트:
+    usage: /<command>
+  경고:
+    usage: /<command>
+  사전후원보상:
+    usage: /<command>
+  #거래:
+  #  usage: /<command>
+  랭킹:
+    usage: /<command>
+  홈2:
+    usage: /<command>
+  셋홈2:
+    usage: /<command>
+  홈:
+    usage: /<command>
+  셋홈:
+    usage: /<command>
+  기본템:
+    usage: /<command>
+  신호기:
+    usage: /<command>
+    permission: FourCore.op
+  국가강화석:
+    usage: /<command>
+    permission: FourCore.op
+  동맹권:
+    usage: /<command>
+    permission: FourCore.op
+  경험치쿠폰:
+    usage: /<command>
+    permission: FourCore.op
+  스텟초기화:
+    usage: /<command>
+    permission: FourCore.op
+  수락:
+    usage: /<command>
+    aliases: [예, accept]
+  거절:
+    usage: /<command>
+    aliases: [아니오, decline]
+  메뉴:
+    usage: /<command>
+  user:
+    usage: /<command>
+  userlist:
+    usage: /<command>
+  귓속말:
+    usage: /<command> [플레이어] [할 말]
+    aliases: [귓, w, W, ㅈ]
+  답장:
+    usage: /<command> [플레이어] [할 말]
+    aliases: [답, r, R, ㄱ]
+  퀘스트:
+    usage: /<command>
+    aliases: [퀘, q, Q]
+  스텟:
+    usage: /<command> [플레이어]
+  정보:
+    usage: /<command> [플레이어]
+  돈:
+    usage: /<command>
+  보관함:
+    usage: /<command>
+  가방:
+    usage: /<command>
+  쓰레기통:
+    usage: /<command>
+  워프:
+    usage: /<command>
+  도움말:
+    usage: /<command>
+  전쟁:
+    usage: /<command> [정보]
+  국가:
+    usage: /<command> [생성|임명|양도|초대|정보|채팅|금고|PVP|전쟁선포|전쟁항복|동맹신청|동맹채팅|동맹참전|동맹파기]
+  관리:
+    usage: /<command>
+    permission: FourCore.guide
+    permission-message: 관리자 전용 명령어 입니다.
+  가이드티피:
+    usage: /<command>
+    permission: FourCore.guide
+    permission-message: 관리자 전용 명령어 입니다.
+  역할:
+    usage: /<command>
+    permission: FourCore.op
+    permission-message: 상급 관리자 전용 명령어 입니다.
+  국가관리:
+    usage: /<command> [전쟁중단|전쟁차단|삭제|추방|임명]
+    permission: FourCore.op, FourCore.guide
+    permission-message: 관리자 전용 명령어 입니다.
+
+permissions:
+  FourCore.op:
+    default: op
+  FourCore.guide:
+    default: op
+  FourCore.man:
+    default: true
